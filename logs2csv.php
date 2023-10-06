@@ -124,7 +124,7 @@ $read_head = true;
 
 if (isset($argz["fields"])) {
   $read_head = false;
-  $fields = explode($argz["fields"]);
+  $fields = explode(",", $argz["fields"]);
 }
 
 $head_sent = false;
